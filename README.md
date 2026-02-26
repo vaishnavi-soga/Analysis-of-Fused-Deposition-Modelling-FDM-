@@ -95,8 +95,6 @@ Without understanding these parameters, printed parts can warp, crack, delaminat
 | **Print Bed** | Surface where the object is built |
 | **Stepper Motors + Pulleys** | Control precise movement in X, Y, Z |
 
-![FDM Extrusion Diagram](figures/fig02_fdm_extrusion_diagram.jpg)
-*Fig 2: Filament heated and extruded into place*
 
 | | |
 |---|---|
@@ -168,11 +166,6 @@ Building a finite element model of PETG filament being deposited on a print bed 
 | **Composites** (Carbon Fiber, Kevlar, Fiberglass) | Extremely rigid and strong | 200–300°C | Jigs, fixtures, high-performance tooling |
 
 > **PETG was selected as the focus material** for simulation due to its balance of printability, mechanical performance, and real-world relevance.
-
-| | |
-|---|---|
-| ![Filament Types](figures/fig03_filament_types.jpg) | ![Witbox Printer](figures/fig04_witbox_printer.jpg) |
-| *Fig 3: Filament spools — PVA, TPE, PLA, PLA/graphene, Polycarbonate* | *Fig 3f: BQ Witbox 2 FDM printer with heated bed* |
 
 ### Why PETG?
 
