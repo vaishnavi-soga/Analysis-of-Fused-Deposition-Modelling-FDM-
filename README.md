@@ -7,7 +7,7 @@
 ![Material](https://img.shields.io/badge/Material-PETG-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
 
-**Modern Manufacturing Methods
+Modern Manufacturing Methods
 
 *A comprehensive study of FDM process parameters, material behavior, and thermal simulations using COMSOL — with focus on PETG filament.*
 
