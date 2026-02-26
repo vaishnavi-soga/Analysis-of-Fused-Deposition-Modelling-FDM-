@@ -8,7 +8,7 @@
 ![Material](https://img.shields.io/badge/Material-PETG-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
 
-**Modern Manufacturing · Arizona State University · 2024**
+**Modern Manufacturing Methods
 
 *A comprehensive study of FDM process parameters, material behavior, and thermal simulations using COMSOL — with focus on PETG filament.*
 
@@ -16,14 +16,8 @@
 
 ---
 
-## 👥 Authors
+## 👥 Authors: Vaishanavi Sogalad 
 
-| Name | Institution |
-|------|-------------|
-| Arjhuna Rajamani | Arizona State University |
-| Vaishanavi Sogalad | Arizona State University |
-| Raghunandana Vasu | Arizona State University |
-| Arya Narasimharaju | Arizona State University |
 
 ---
 
@@ -46,29 +40,29 @@
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 
 Fused Deposition Modelling (FDM) is one of the most widely used 3D printing technologies, but **producing dimensionally accurate, mechanically strong, and thermally stable parts remains a challenge**. The outcome of an FDM print is highly sensitive to:
 
 - Which **material (filament)** is used
-- What **temperature** the extruder and print bed are set to
+- What **temperature** are the extruder and print bed set to
 - How fast the print head **moves**
 - The **layer thickness** and **raster angle** chosen
 - How the part **cools** after deposition
 
 Without understanding these parameters, printed parts can warp, crack, delaminate between layers, or fail mechanically. This becomes especially critical when FDM parts are used in aerospace, medical, or automotive applications where tolerances matter.
 
-### 🎯 Goals of This Project
+### Goals of This Project
 
 1. **Understand** the FDM process from first principles — what happens to the material at every stage
 2. **Compare** common FDM filament materials (PLA, ABS, PETG, Nylon, Composites) and identify which is best for different use cases
 3. **Model and simulate** the thermal behavior of a PETG filament during deposition using COMSOL
-4. **Identify** how heat transfers through and away from deposited material — and what that means for bond strength and warping
+4. **Identify** how heat transfers through and away from deposited material and what that means for bond strength and warping
 5. **Explore** real-world applications and the limitations engineers face today
 
 ---
 
-## 🖨️ What is FDM?
+## What is FDM?
 
 **Fused Deposition Modelling (FDM)** is an **additive manufacturing** process — meaning objects are *built up* layer by layer rather than carved out of a solid block.
 
@@ -132,7 +126,7 @@ Without understanding these parameters, printed parts can warp, crack, delaminat
 
 ---
 
-## 💡 Why This Matters
+## Why This Matters
 
 FDM is the **most accessible and widely used** 3D printing technology in the world. It powers:
 
@@ -146,7 +140,7 @@ Understanding its thermal and mechanical behavior means engineers can **predict 
 
 ---
 
-## 📐 Project Overview
+## Project Overview
 
 This project analyzes FDM through three lenses:
 
@@ -164,17 +158,17 @@ Building a finite element model of PETG filament being deposited on a print bed 
 
 ---
 
-## 🧪 Materials Studied
+## Materials Studied
 
 | Material | Key Properties | Extruder Temp | Best For |
 |----------|---------------|---------------|----------|
 | **ABS** | Tough, heat & impact resistant, needs heated bed | 215–230°C | Functional prototypes |
 | **PLA** | Easy to print, biodegradable, but brittle | 180–220°C | Concept models, visual prototypes |
-| **PETG** ⭐ | Chemical & humidity resistant, high transparency, minimal warping | 220–250°C | Waterproof parts, snap-fit components |
+| **PETG**| Chemical & humidity resistant, high transparency, minimal warping | 220–250°C | Waterproof parts, snap-fit components |
 | **Nylon** | Strong, lightweight, partially flexible | 250°C | Wear-resistant parts, functional prototypes |
 | **Composites** (Carbon Fiber, Kevlar, Fiberglass) | Extremely rigid and strong | 200–300°C | Jigs, fixtures, high-performance tooling |
 
-> ⭐ **PETG was selected as the focus material** for simulation due to its balance of printability, mechanical performance, and real-world relevance.
+> **PETG was selected as the focus material** for simulation due to its balance of printability, mechanical performance, and real-world relevance.
 
 | | |
 |---|---|
@@ -191,7 +185,7 @@ Building a finite element model of PETG filament being deposited on a print bed 
 
 ---
 
-## ⚙️ Process Parameters
+## Process Parameters
 
 Seven machine parameters were studied for their impact on part quality:
 
@@ -219,7 +213,7 @@ These parameters interact with each other. For example:
 
 ---
 
-## 🔬 Simulation Setup
+## Simulation Setup
 
 ### Analytical Model — Yardimci Heat Transfer Equation
 
@@ -263,14 +257,9 @@ Where each term represents:
 | ![COMSOL 3D Model](figures/fig10_comsol_3d_model.jpg) | ![PETG Part](figures/fig11_petg_printed_part.jpg) |
 | *Fig 7: COMSOL 3D model — print bed (50×50×30mm) with PETG filament bead on top* | *Fig 8: PETG printed part showing surface finish and layer structure* |
 
-### Heat Transfer Modes Included
-- ✅ Natural convection with surrounding air
-- ✅ Conduction between filament and print bed
-- ❌ Radiation (not included — negligible at these temperatures)
-
 ---
 
-## 📊 Results
+## Results
 
 ### Steady-State Thermal Simulation
 
@@ -307,11 +296,11 @@ The time-dependent simulation captures how the newly deposited PETG filament hea
 - The **average temperature** (blue curve) rises gradually over time — meaning the overall print body accumulates heat as more layers are added
 - The **minimum temperature** (red curve) oscillates near ambient — representing the outer surfaces of the print bed that are cooled by convection
 
-> 🔍 The oscillatory pattern in temperature directly corresponds to the cyclic deposition of new filament beads. Each new bead reheats nearby material, briefly re-activating the bonding zone — this is what creates interlayer adhesion.
+> The oscillatory pattern in temperature directly corresponds to the cyclic deposition of new filament beads. Each new bead reheats nearby material, briefly reactivating the bonding zone — this is what creates interlayer adhesion.
 
 ---
 
-## 🏭 Applications
+## Applications
 
 ### FDM in Industry
 
@@ -343,7 +332,7 @@ The time-dependent simulation captures how the newly deposited PETG filament hea
 
 ---
 
-## 🚧 Challenges & Innovations
+## Challenges & Innovations
 
 ### Challenges with PETG
 
@@ -361,7 +350,7 @@ The time-dependent simulation captures how the newly deposited PETG filament hea
 
 ---
 
-## 🔭 Future Work
+## Future Work
 
 Three promising directions for advancing PETG-based FDM:
 
@@ -381,7 +370,7 @@ Three promising directions for advancing PETG-based FDM:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 fdm-analysis/
@@ -408,7 +397,7 @@ fdm-analysis/
 
 ---
 
-## 🚀 How to Use This Project
+## How to Use This Project
 
 ### If you're a student learning about FDM:
 1. Start with **[What is FDM?](#-what-is-fdm)** and **[Materials Studied](#-materials-studied)**
@@ -431,7 +420,7 @@ fdm-analysis/
 
 ---
 
-## 📚 References
+## References
 
 1. Mwema, F. & Akinlabi, E. (2020). *Basics of Fused Deposition Modelling (FDM)*. DOI: 10.1007/978-3-030-48259-6_1
 
@@ -453,7 +442,7 @@ fdm-analysis/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
