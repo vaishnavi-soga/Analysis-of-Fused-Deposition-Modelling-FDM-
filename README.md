@@ -1,8 +1,8 @@
-# 🖨️ Analysis of Fused Deposition Modelling (FDM)
+# Analysis of Fused Deposition Modelling (FDM)
 
 <div align="center">
 
-![ASU](https://img.shields.io/badge/Arizona_State_University-8C1D40?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgo=&logoColor=FFC627)
+
 ![COMSOL](https://img.shields.io/badge/COMSOL_Multiphysics-005B96?style=for-the-badge&logoColor=white)
 ![3D Printing](https://img.shields.io/badge/3D_Printing-FDM-blue?style=for-the-badge)
 ![Material](https://img.shields.io/badge/Material-PETG-green?style=for-the-badge)
@@ -16,12 +16,12 @@
 
 ---
 
-## 👥 Authors: Vaishanavi Sogalad 
+##  Authors: Vaishanavi Sogalad 
 
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Problem Statement](#-problem-statement)
 - [What is FDM?](#-what-is-fdm)
