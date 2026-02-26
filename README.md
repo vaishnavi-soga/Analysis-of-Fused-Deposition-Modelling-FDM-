@@ -1,6 +1,7 @@
 # Analysis of Fused Deposition Modelling (FDM)
 
-<div align="center">
+<div align="center"> 
+        
 ![COMSOL](https://img.shields.io/badge/COMSOL_Multiphysics-005B96?style=for-the-badge&logoColor=white)
 ![3D Printing](https://img.shields.io/badge/3D_Printing-FDM-blue?style=for-the-badge)
 ![Material](https://img.shields.io/badge/Material-PETG-green?style=for-the-badge)
